@@ -1,0 +1,59 @@
+{
+  "name": "build-xbook4",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "node bin/cli.js --run-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "build-xbook4": "bin/cli.js"
+  },
+  "main": "lib/common/index.js",
+  "dependencies": {
+    "array-flatten": "^2.1.2",
+    "camelcase-keys": "^6.0.0",
+    "check-realpath-webpack-plugin": "^1.0.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "cli-color": "^1.4.0",
+    "copy-webpack-plugin": "^5.0.3",
+    "cross-env": "^5.2.0",
+    "del": "^5.0.0",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^4.0.0-beta.5",
+    "http-proxy-middleware": "^0.19.1",
+    "inquirer": "^6.4.1",
+    "ip": "^1.1.5",
+    "isomorphic-fetch-improve": "^1.3.0",
+    "load-json-file": "^5.1.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.24.0",
+    "npm-run-all": "^4.1.5",
+    "open": "^6.4.0",
+    "optimist": "^0.6.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "path-to-regexp": "^3.0.0",
+    "pify": "^4.0.1",
+    "portfinder": "^1.0.22",
+    "pretty-hrtime": "^1.0.3",
+    "pug": "^2.0.4",
+    "shelljs": "^0.8.3",
+    "simple-git": "^1.118.0",
+    "then-fs": "^2.0.0",
+    "uglifyjs-webpack-plugin": "^2.1.3",
+    "update-pathname": "^1.0.0",
+    "url-join": "^4.0.1",
+    "vue-loader": "^15.7.0",
+    "vue-server-renderer": "^2.6.10",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.35.3",
+    "webpack-dev-middleware": "^3.7.0",
+    "webpack-hot-middleware": "^2.25.0",
+    "webpack-merge": "^4.2.1"
+  },
+  "engines": {
+    "node": ">=9.2.0"
+  }
+}
